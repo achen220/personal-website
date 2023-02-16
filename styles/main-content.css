@@ -1,0 +1,27 @@
+.main-content {
+  position: absolute;
+  top: 60px;
+  left: 6.5%;
+  width: 93.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content h1 {
+  line-height: 50px;
+}
+.main-content span {
+  display: block;
+  color: grey;
+}
+.main-content .contact-button {
+  background: none;
+  border: 5px grey solid;
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 20px;
+  color: grey;
+  font-weight: 700;
+}
