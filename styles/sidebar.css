@@ -2,7 +2,25 @@
   position: fixed;
   background-color: #7d8f69;
   height: 100%;
-  width: 6.5%;
+  width: 5%;
   left: 0;
   top: 60px;
+  display: flex;
+  flex: column;
+  align-items: center ;
+  justify-content: center;
+}
+.linkedn-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: #E6E5A3;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 5%;
+  color:#7d8f69;
 }
