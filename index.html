@@ -11,22 +11,33 @@
   <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="stylesheet" href="styles/main-content.css">
   <!-- fonts -->
+    <!-- PT Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=PT+Sans:wght@700&display=swap" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <!--  Mont Serrat-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Outfit:wght@400;500&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="headbar">
     <div class="left-container">
-      <img class="logo"src="" alt="">
+      <!-- <img class="logo"src="" alt=""> -->
       <p class="name"> Aaron Chen </p>
     </div>
     
     <nav class="right-container">
-      <button class="main-nav"> About </button>
+      <ul id="maintop-nav">
+        <li><a href="">About</a></li>
+        <li><a href="">My Skills</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <!-- <button class="main-nav"> About </button>
       <button class="main-nav"> My Skills </button>
       <button class="main-nav"> Work </button>
-      <button class="main-nav" class="contact-button"> Contact </button>
+      <button class="main-nav" class="contact-button"> Contact </button> -->
     </nav>
   </div>
   <div class="sidebar">
@@ -49,11 +60,12 @@
     </ul>
   </div>
   <div class="main-content">
-    <h1> 
-      <span> Hello, </span>
-      <span> I'm Aaron, </span>
-      <span> an aspiring Software Developer </span>
-    </h1>
+    <p id="greeting">
+      <span id="hello-word"> Hello my name is, </span>
+      <span id="name-intro"> Aaron Chen, </span>
+      <span id="goal"> an aspiring Software Developer. </span>
+      
+    </p>
     <button class="contact-button"> Contact Me</button>
   </div>
 </body>

@@ -9,13 +9,24 @@
   justify-content: center;
   align-items: center;
 }
-.main-content h1 {
+#greeting {
   line-height: 50px;
+  color: #557153;
 }
-.main-content span {
+#hello-world {
   display: block;
-  color: grey;
 }
+#name-intro {
+  display: block;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#goal {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .main-content .contact-button {
   background: none;
   border: 5px grey solid;
@@ -24,4 +35,10 @@
   padding: 20px;
   color: grey;
   font-weight: 700;
+  transition: .25s;
+}
+
+.main-content .contact-button:hover {
+  background-color: #557153;
+  color: rgba(255, 255, 255, 0.651);;
 }
